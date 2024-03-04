@@ -1,0 +1,66 @@
+/* layout */
+.content-wrapper {
+    justify-content: start !important;
+    overflow: hidden !important;
+}
+
+.layout-navbar-fixed .layout-wrapper:not(.layout-without-menu) .layout-page {
+    padding-top: 1rem !important;
+}
+
+.price-right{
+    text-align: right;
+}
+
+.offcanvas-backdrop.show {
+    opacity: 0 !important;
+    display: none !important;
+}
+
+.fc-daygrid-event-harness,.fc-timegrid-event-harness-inset .fc-timegrid-event{
+    border-left: 3px solid #5a8dee;
+    background-color: #e5edfc !important;
+    color: #5a8dee !important;
+    border-radius: 0.25rem;
+}
+
+.custom-header{
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 10px 15px 0px 15px !important;
+}
+
+#searchFilter {
+    z-index: 1111;
+    position: absolute;
+    top: -1px;
+    width: 97%;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+.bg-blur {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 1000; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+  /* ckeditor height  */
+  .ck-editor__editable {
+    min-height: 200px;
+  }
+
+  /* form  */
+  label{
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
